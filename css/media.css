@@ -1,0 +1,145 @@
+@media (max-width: 1560px) {
+    .header-nav{
+        padding: 15px 40px;
+    }
+   :root{
+    --big-font:3.5rem;
+    --h2-font:2rem;
+   } 
+}
+@media (max-width: 1140px) {
+    section, footer{
+        padding: 50px 8%;
+    }
+    #menu-icon{
+        display: initial;
+        color: #fff;
+    }
+    .navbar{
+        position: absolute;
+        top: -400px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: #2b2640;
+        transition: .4s;
+    }
+    .navbar.active{
+        top: 70px;
+    }
+    .navbar a{
+        padding: 1.5rem;
+        display: block;
+    }
+    .column{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .box h2{
+        font-size: 1.2rem;
+    }
+    .cta{
+        width: 75%;
+    }
+}
+@media (max-width: 950px) {
+    .service-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .s-box{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 880px) {
+    .header-nav{
+        padding: 10px 16px;
+    }
+    .home{
+        margin: 25px 0 0;
+        height: auto;
+    }
+    .home-img img{
+        width: 80%;
+    }
+    .home, .about{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about-img{
+        order: 2;
+    }
+    section, footer{
+        padding: 40px 7%;
+    }
+    .menu-container, .service-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .s-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+}
+@media (max-width: 640px) {
+    .box-img{
+        width: 300px;
+        height: 300px;
+        padding: 25px 25px;
+    }
+    .service-container{
+        margin: 4rem auto;
+        padding: 0;
+    }
+    .s-box{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding: 20px 40px;
+    }
+    .cta{
+        width: 80%;
+        padding: 60px 0;
+        margin: 60px auto;
+    }
+    .cta h2{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 575px){
+    .column{
+        width: 100%;
+    }
+}
+@media (max-width: 380px){
+    .box{
+        width: 100%;
+        height: auto;
+    }
+    .box-img{
+        width: 220px;
+        height: auto;
+    }
+    .s-box{
+        width: 300px;
+        padding: 20px;
+    }
+    .cta{
+        width: 90%;
+        padding: 40px 0;
+        margin: 40px auto;
+    }
+    .cta h2{
+        font-size: 1.2rem;
+    }
+}
